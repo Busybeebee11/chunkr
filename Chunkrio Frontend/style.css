@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;500&;700&;display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    /* border: 1px solid red; */
+}
+
+html {
+    height: 100%
+}
+
+body,main {
+    width: 100%;
+    min-height: 100vh;
+ }
+
+/* STYLING FOR LANDING PAGE STARTS HERE */
+ nav {
+    background-color: #fff;
+    animation: fadeIn; 
+    animation-duration: 2s; 
+}
+
+.navi {
+    margin: 0 80px;
+    padding: 0;
+}
+
+.navbar-nav {
+    gap: 80px;
+} 
+
+.nav-item {
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-family: 'Manrope';
+    font-style: normal;
+    line-height: 19px;
+    display: flex;  
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 27px;
+    margin-bottom: 26px;
+}
+
+.ease {
+    color: #3a86ff;
+}
+
+.collapse {
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 34px;
+}
+
+.sign-in {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    margin-top: 19px;
+    margin-bottom: 18px;
+}
+
+.display-3 {
+    font-size: 64px;
+    font-weight: 700;
+    animation: fadeIn; 
+    animation-duration: 3s;
+    font-family: 'Inter', sans-serif;
+}
+
+.display-6 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.signup-page {
+    margin-top: -12px;
+}
+
+.chunk-create {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #959693
+}
+
+.enter {
+    width: 443px;
+    height: 19px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    word-spacing: 1px;
+    color: #959693
+}
+
+.enter2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    word-spacing: 3px;
+}
+
+.lead {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+
+.get-started {
+    width: 240px;
+    height: 56px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    margin-left: 23%;
+    margin-top: 24px;
+    margin-bottom: 70px;
+}
+
+.sign-in2 {
+    margin-top: -10px;
+    margin-bottom: 18px;
+}
+
+.signin-b {
+    height: 67px;
+}
+
+.figure {
+    height: auto;
+}
+
+.row {
+    justify-content: space-evenly;
+}
+
+.figure-caption>p {
+    color:#4F504C;
+    font-size: 32px;
+    font-family: 'Manrope',sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.figure {
+    background-color: #F7F7F7;
+    border-radius: 16px;
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+p.text-1 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.row.container-fluid.pt-5.mt-5.text-center.mx-auto {
+    background-image: url(img/bubble-background.png);
+}
+
+.pb-4.text-2,p.text-center {
+    font-size: 24px;
+}
+
+.bg-image {
+    background-image: url(img/blue_quote.svg);
+    background-size: contain;
+    margin-left: 2.5vw;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+footer { 
+    background-color:#24272C;
+    color: white;
+    font-size: 24px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: -20px;
+}
+
+.text-3 {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Manrope',sans-serif;
+}
+
+/* #exampleModalLabel {
+    font-family: inter,sans-serif;
+} */
+
+/* .modal-content {
+    width: 100%;
+} */
+
+/* .modal-dialog { 
+    font-family: manrope,sans-serif;
+} */
+
+/* .modal-header {
+    border-bottom: none;
+    margin-bottom: -3vw;
+} */
+
+.username-mod1 {
+    margin-top: -5px;
+}
+
+.text-start{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.sign-up-form {
+    box-shadow: 0px 4px 32px -2px rgba(46, 45, 45, 0.15);
+    border-radius: 16px;
+}
+
+.form-control{
+    background: #F7F7F7;
+}
+
+.p-reset {
+    margin-bottom: 70px;
+}
+/* .close {
+    position: absolute;
+    left: 454px;
+    top: 25px;
+}
+
+.close1 {
+    position: absolute;
+    left: 457px;
+    top: 30px;
+} 
+
+.btn-close { 
+    border: 2px solid #292D32;
+    width: 20px;
+    height: 20px;
+} */
+
+
+hr {
+    border-width: 4px;
+    color:#FFFFFF;
+}
+
+.footer-image {
+    width: 20%;
+}
+
+.footer-link, .footer-link:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+input {
+    font-family: 'Manrope',sans-serif;
+    font-size: 12px;  
+}
+
+.username-mod1 {
+    margin-top: -5px;
+}
+
+.text-start{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.sign-up-form {
+    box-shadow: 0px 4px 32px -2px rgb(46, 45, 45, 0.15);
+    border-radius: 16px;
+}
+
+.form-control {
+    background: #F7F7F7;
+}
+
+.p-reset {
+    margin-bottom: 70px;
+}
+
+a {
+    text-decoration: none;
+}
+/* responsive_Landing */
+.input-group-text{
+    background-color: white;
+}
+
+.input-group {
+    width: 50vw;
+    height: 4.5vw;
+    border-radius: 56px;
+}
+
+.input-group-text {
+    background-color: white;
+}
+
+.input-group {
+    width: 40vw;
+    height: 4.5vw;
+    border-radius: 56px;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* faq */
+.col-2.rounded {
+    margin-bottom: -1.7px;
+}
+
+/* main */
+
+.files {
+    font-size: 12px;
+}
+
+.progress {
+    height: 6%;
+}
+
+.dropdown-menu[data-bs-popper] {
+        top: 100%;
+        right: 0;
+        left: 64%;
+        margin-top: var(--bs-dropdown-spacer);
+        width: 250px;
+    }
+    
+/* Create a container using css properties */
+/* .container {
+	left:10%;
+	position: absolute;
+	text-align: center;
+	transform: translate(-50%, -50%);
+} */
+
+li.h4.text-dark.py-3.fw-normal:hover{
+    background-color: #F7F7F7;
+    border-left: 4px solid black;
+}
+
+/* Apply css properties to ui-widgets class */
+.ui-widgets {
+	position: relative;
+	display: inline-block;
+	width: 10rem;
+	height: 10rem;
+	border-radius: 9rem;
+	margin:1.5rem;
+	border: 1.2rem solid black;
+	border-left-color: #3a86ff;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+/* Apply css properties to ui-widgets
+class and ui-values class */
+.ui-widgets .ui-values {
+	top: 40px;
+	position: absolute;
+	left: 2px;
+	right: 0;
+	font-weight: 700;
+	font-size: 2.0rem;
+}
+
+/* Apply css properties to ui-widgets
+class and ui-labels class */
+.ui-widgets .ui-labels {
+	left: 0;
+	bottom: -16px;
+	text-shadow: 0 0 4px grey;
+	color:black;
+	position: absolute;
+	width: 100%;
+	font-size: 16px;
+}
+
+.progress-labels{
+    margin-bottom: -3.5px;
+}
+
+/* MEDIA QUERIES FOR LANDING PAGE STARTS HEERE*/
+@media (min-width: 600px) and (max-width: 991px) {
+    .row {
+        display: flex;
+    } 
+    .img-fluid.col-lg-3, .img-fluid.col-lg-2, .img-fluid.col-lg-4 {
+        height: auto;
+        width: 30%;
+    }  .display-6 {
+        font-size: 30px;
+    }
+    .enter {
+        font-size: 13px;
+    }
+} 
+
+@media (min-width: 300px) and (max-width: 599px){
+    .navi {
+        margin: 0 9px;
+        padding: 0;
+    }
+    .bg-image {
+        background-image: none;
+    }
+    .figure {
+        width: 100%;
+    }
+    .navig {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 10px;
+    }
+    .navbar-toggler {
+        border: none;
+    }
+    .navbar-toggler:hover {
+        border: none;
+    }
+    .register-btns {
+        display: none;
+    }
+}
+    
+    /* .row {
+        display: block;
+        text-align: center;
+        margin-top: -35px;
+    }
+
+    .img-fluid.col-lg-3, .img-fluid.col-lg-2, .img-fluid.col-lg-4 {
+        height: auto;
+        margin-bottom: 55px;
+        width: 60%;
+    }
+    .display-3 {
+        font-size: 24px;
+        padding-top: -35px;
+    }
+    .lead {
+        font-size: 14px;
+    }
+    .display-3 {
+        font-size: 27px;
+    }
+    .lead {
+        font-size: 17px;
+    }
+    .rndn {
+        width:90%;
+    }
+    .footer-image{
+        width: 70%;
+    }
+    .footer-image {
+        width: 50%;
+    }
+    /* .modal-header {
+        width: 100%;
+    } */
+
+    @media (min-width: 600px) and (max-width: 991px) {
+        .row {
+            display: flex;
+            margin-top: -22px;
+        } 
+        .img-fluid.col-lg-3, .img-fluid.col-lg-2, .img-fluid.col-lg-4 {
+            height: auto;
+            width: 30%;
+        }
+        .footer-image{
+            width: 40%;
+        }
+} 
+    
+ /* signup */
+@media (min-width: 320px) and (max-width: 425px) {
+    .text-start.sign-up, .dont-have {
+        font-size: 13px;
+    }
+    .chunk-create {
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+    .display-6 {
+        font-size: 26px;
+    }
+    .enter {
+        font-size: 13px;
+    }
+    .forgot-p {
+        font-size: 20px;
+    }
+}
+/* MEDIA QUERIES FOR LANDING PAGE ENDS HEERE*/
+
+    .ui-widgets{
+        border:none
+    }
+/* MEDIA QUERIES FOR LANDING PAGE ENDS HEERE*/
